@@ -20,7 +20,7 @@ print img.dtype
 
 #########################################################################
 
-#Selecting a path and copyng to other region of the image
+#Selecting a path and copying to other region of the image
 b=img[280:340, 330:390]
 img[273:333, 100:160] =b
 cv2.imshow('IMAGE', img)
